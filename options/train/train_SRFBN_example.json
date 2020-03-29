@@ -17,8 +17,8 @@
             "dataroot_LR": "/mnt/data/paper99/DIV2K/Augment/DIV2K_train_LR_aug/x4",
             "data_type": "npy",
             "n_workers": 4,
-            "batch_size": 16,
-            "LR_size": 40,
+            "batch_size": 20,
+            "LR_size": 160,
             "use_flip": true,
             "use_rot": true,
             "noise": "."
@@ -33,11 +33,11 @@
 
     "networks": {
         "which_model": "SRFBN",
-        "num_features": 32,
+        "num_features": 64,
         "in_channels": 3,
         "out_channels": 3,
         "num_steps": 4,
-        "num_groups": 3
+        "num_groups": 6
     },
 
     "solver": {
